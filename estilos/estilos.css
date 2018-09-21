@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/* tag body */
+body {
+	margin: 0;
+	padding: 0;	
+	border: 0;
+	background-color: gray;
+	color: #666666;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 150%;
+	font-weight: 200;
+	line-height: 1.65em;	
+}
+
+/* Elemento com id="header" */
+#header {
+	background-image: url(..//images/banner.jpg);
+	background-size: cover;
+	background-color: #444444;
+	text-align: center;
+	min-height: 100vh;
+}
+
+/* Todos os elementos com class"inner", dentro do elemento id="header" */
+#header .inner {
+	margin: auto;
+	padding-top: 13%;
+	z-index: 1000;
+}
+
+/* Todos os H1 dentro do elemento com id="header" */
+#header h1 {
+	font-size: 2cm;
+	padding: 0em 0.5em 0em 0.25em;
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+	font-weight: 900;
+	line-height: 70px;
+	text-transform: uppercase;
+}
+
+/* Todos os elementos H#s dentro do elemento com id="header"*/
+#header h3 {
+	font-family: 'Montserrat', sans-serif;
+	color: #cccccc;
+	font-weight: 400;
+	margin: 0;
+	padding: 0;
+}
+
+/* tag nav dentro do elemento com id="header" */
+#header nav {
+	background-color: #312e2e;
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	z-index: 1000;
+}
+
+/* tag <a> dentro da tag nav que, por sua vez, está em #header */
+#header nav a {
+	margin-right: 25px;
+	color: #cccccc;
+	font-weight: 600;
+}
+
+/* Elemento com id="wrapper" */
+#wrapper {
+	width: 40em;
+	margin: 0 auto;
+	padding-top: 0;
+	padding-right: 5em;
+	padding-bottom: 2em;
+	padding-left: 5em;
+}
+
+/* Elemento com id="intro" */
+#intro {
+	padding: 4em 4em 2em 4em;
+	background-color: #ffffff;
+	border-radius: 10px;
+	text-align: center;
+	margin-bottom: 4em;
+	margin-top: 2em; 
+}
+#intro img {
+	border-radius: 50%;
+}
+
+/*todas as tags com class="items", em nosso caso, a seção com itens de conteudo*/
+.items {
+	display: flex;
+	width: calc(100%  + 2em);
+	margin: -2em 0 0 -2em; 
+}
+
+/* Todos os elementos com class="item", declarada nas tags <article>*/
+.item {
+	padding: 3em 3em 1em 3em;
+	background-color: #ffffff;
+	border-radius: 4px;
+	text-align: center;
+	margin: 2em 0 0 2em;
+	width: 50%;  
+}
+
+/* Todas as tags <header> dentro das classe item */
+.item header {
+	margin: -3em 0 3em -3em;
+	width: calc(100% + 6em);
+	height: 10em;
+	position: relative;	
+	overflow: hidden; 
+}
+
+/* Todas as tags <a> dentro da tag header */
+.item header a {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+/* Elemento com id="footer" */
+#footer {
+	margin: 4em auto 0 auto;
+	width: 40em;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+/* Elementos com class="button" */
+.button {
+	border-radius: 4px;
+	display: block;
+	font-weight: 400;
+	padding: 1em; 
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.325em;
+	font-size: 0.725;
+	background-color: transparent;
+	border: 2px solid #9a9a9a;
+	color: #9a9a9a;
+}
+
+/* Elementos com class="button"*/
+.button:hover {
+	color: black;
+	border: 2px solid black;
+}
+
+/* Todas as tags <ul>*/
+ul {
+	padding-left: : 0;
+}
+
+/* Todas as tags <li>, dentro das tags ul*/
+ul li {
+	display: inline-block;
+}
+
+/* Todas as tags <a> */
+a {
+	text-decoration: none;
+}
+
+/* Regras para todas as tags <a> dentro da navegação 
+para quando o usuario passar o mouse por cima do link*/
+#header nav a:hover, a:hover {
+	color: #b29b51;
+}
+
+
+
